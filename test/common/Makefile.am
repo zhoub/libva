@@ -59,5 +59,8 @@ noinst_HEADERS		= $(source_h)
 libva_display_la_CFLAGS	= $(libva_display_cflags)
 libva_display_la_LIBADD	= $(libva_display_libs)
 
+libva_display_includedir			= ${includedir}/va
+libva_display_include_HEADERS		= $(source_h)
+
 # Extra clean files so that maintainer-clean removes *everything*
 MAINTAINERCLEANFILES = Makefile.in
